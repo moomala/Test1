@@ -7,10 +7,86 @@ Write an article using semantic markup, header, footer, main and section. In the
 the current uses of the world wide web. In the footer put a copyright notice.
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text on a parchment colored background. 
     -->
+    <meta charset="UTF-8">
+    <title>From Physics to Everything</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
 
+        header {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+        }
+
+        main {
+            background-color: #F1E9D2; /* parchment */
+            color: black;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+    <article>
+        <header>
+            <h1>From Physics to Everything</h1>
+            <p>How a tool for scientists became the place you spend your whole day</p>
+        </header>
 
+        <main>
+            <section>
+                <h2>Then: A Fix for Messy Research</h2>
+                <p>
+                    In 1989, physicists at CERN had a problem every group project knows: everyone's work
+                    was saved somewhere different, and nobody could find anything. Tim Berners-Lee's fix
+                    was linked documents, so a scientist could click from one paper straight to another.
+                    It was built for a few thousand researchers sharing physics data.
+                </p>
+            </section>
+
+            <section>
+                <h2>Now: Literally Everything</h2>
+                <p>
+                    Today, billions of people use that same idea to binge shows, order takeout, submit
+                    assignments at 11:59 p.m., and doomscroll through images that you can't tell are actually AI slop.
+                    The web went from serious science to the place we work, shop, learn, and procrastinate.
+                </p>
+            </section>
+
+            <section>
+                <h2>What Stayed the Same</h2>
+                <p>
+                    Under all the videos and apps, the web still runs on what Berners-Lee built: HTML,
+                    URLs, and HTTP. And the core goal hasn't changed: connecting information so anyone
+                    can find it. Every link you click is a tiny version of his original idea.
+                </p>
+            </section>
+
+            <section>
+                <h2>What Changed</h2>
+                <p>
+                    His web was plain text for a small group of experts. Ours is full of images, ads, and
+                    algorithms, used by almost everyone on Earth. That growth brought problems he never
+                    planned for, like misinformation and privacy concerns. Not bad for something that
+                    started as a way to organize physics papers.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Miranda Priatel. All rights reserved.</p>
+        </footer>
+    </article>
 </body>
 
 </html>
